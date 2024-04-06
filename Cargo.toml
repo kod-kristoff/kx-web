@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Kristoffer Andersson <kod.kristoff@gmail.com>"]
+license = "MIT or APACHE-2.0"
+repository = "https://github.com/kod-kristoff/kx-web"
+rust-version = "1.64"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace.dependencies]
